@@ -21,11 +21,11 @@
 :star: <code>[Twitter](https://twitter.com/ravisawane9)</code>  
 :star: <code>[LinkedIn](https://www.linkedin.com/in/ravindranath-sawane-ai/)</code>  
 :star: <code>[Medium](https://medium.com/@ravisawane9)</code>  
-<!--
-## :point_down: Support me here!
-<a href="https://www.buymeacoffee.com/chandrikadeb7" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
--->
+## :point_down: Support me here!
+<a href="https://www.buymeacoffee.com/ravisawane9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
+
 <!--
 Here are some ideas to get you started:
 - 🔭 I’m currently working on ...
