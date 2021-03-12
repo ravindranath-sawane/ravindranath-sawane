@@ -10,7 +10,7 @@
 
   
 ### What am I learning:question::point_down:	
-<code>var topics = ["Machine Learning", "AWS", "Cyber Security"];</code>  
+<code>var topics = ["Machine Learning", "Deep Learning", "Artificial Intelligence"];</code>  
 
 
 ### What can I help with:question::cyclone:
