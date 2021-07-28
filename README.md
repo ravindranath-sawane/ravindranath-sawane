@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Ravindranath Sawane</h1>
 <h3 align="center">I am an Artificial Intelligence Developer!!</h3>
 
-### Who am I:question: 
-<code>git commit -m "Hello, I'm a Student in Artificial Intelligence."</code>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=ravindranath-sawane&label=Profile%20views&color=129e00&style=plastic" alt="ravindranath-sawane" /> </p>
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/101577/screenshots/4875999/true_astronaut_dribbble-bg.gif">
 
   
 ### What am I learning:question::point_down:	
