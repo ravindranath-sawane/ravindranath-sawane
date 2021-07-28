@@ -16,24 +16,14 @@
 ### What can I help with:question::cyclone:
 <code>git commit -m "Pretty much nerd Stuff and AI."</code> :grin:
 
-### How to connect with me:question::email:
-:star: <code>[Mail](mailto:ravisawane9@gmail.com)</code>    
-:star: <code>[Twitter](https://twitter.com/ravisawane9)</code>  
-:star: <code>[LinkedIn](https://www.linkedin.com/in/ravindranath-sawane-ai/)</code>  
-:star: <code>[Medium](https://medium.com/@ravindranathsawane)</code>  
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/ravisawane9" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="khushboogoel01" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/ravindranath-sawane-ai" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="khushboogoel01" height="30" width="40" /></a>
+<a href="https://www.instagram.com/ravindranath_sawane" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="_khushboo.goel" height="30" width="40" /></a>
+  
 <!--
 ## :point_down: Support me here!
 <a href="https://www.buymeacoffee.com/ravisawane9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 -->
 
-<!--
-Here are some ideas to get you started:
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
