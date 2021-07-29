@@ -19,7 +19,7 @@
 <a href="https://www.instagram.com/ravindranath_sawane" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="_khushboo.goel" height="30" width="40" /></a>
   
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ravindranath-sawane&show_icons=true&locale=en&layout=compact" alt="ravindranath-sawane" /></p>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ravindranath-sawane&show_icons=true&locale=en" alt="ravindranath-sawane" /></p>
+<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=ravindranath-sawane&show_icons=true&locale=en" alt="ravindranath-sawane" /></p>
 
 
 
