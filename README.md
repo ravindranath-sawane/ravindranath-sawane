@@ -2,7 +2,6 @@
 <h3 align="center">I am an Artificial Intelligence Developer!!</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ravindranath-sawane&label=Profile%20views&color=129e00&style=plastic" alt="ravindranath-sawane" /> </p>
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/101577/screenshots/4875999/true_astronaut_dribbble-bg.gif">
 
 
 ### What am I learning:question::point_down:	
@@ -24,5 +23,7 @@
 <a href="https://twitter.com/ravisawane9" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="khushboogoel01" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/ravindranath-sawane-ai" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="ravindranath-sawane-ai" height="30" width="40" /></a>
 <a href="https://www.instagram.com/ravindranath_sawane" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="ravindranath_sawane" height="30" width="40" /></a>
+  
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/101577/screenshots/4875999/true_astronaut_dribbble-bg.gif">
 
 
