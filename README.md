@@ -3,13 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ravindranath-sawane&label=Profile%20views&color=129e00&style=plastic" alt="ravindranath-sawane" /> </p>
 
-
-### What am I learning:question::point_down:	
-<code>var topics = ["Machine Learning", "Deep Learning", "Artificial Intelligence"];</code>  
-
-### What can I help with:question::cyclone:
-<code>git commit -m "Pretty much nerd Stuff and AI."</code> :grin:
-
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ravindranath-sawane&show_icons=true&locale=en&layout=compact" alt="ravindranath-sawane" /></p>
 <p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=ravindranath-sawane&show_icons=true&locale=en" alt="ravindranath-sawane" /></p>
 
