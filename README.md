@@ -1,4 +1,8 @@
 <img src="Images/header.svg"></img>
+
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=ravindranath-sawane&label=Profile%20Visitors&color=129e00&style=plastic" alt="ravindranath-sawane" /> </p>
+
 <h1 align="center">Hi 👋, I'm Ravindranath Sawane</h1>
 <h3 align="center">I am pursuing B. Tech. in Artificial Intelligence (3rd year)!!</h3>
 
@@ -14,8 +18,7 @@
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: We can talk about Space all day.
  
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ravindranath-sawane&label=Profile%20views&color=129e00&style=plastic" alt="ravindranath-sawane" /> </p>
-
+ 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ravindranath-sawane&show_icons=true&locale=en&layout=compact" alt="ravindranath-sawane" /></p>
 <p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=ravindranath-sawane&show_icons=true&locale=en" alt="ravindranath-sawane" /></p>
 
