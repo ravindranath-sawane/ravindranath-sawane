@@ -1,6 +1,6 @@
 <img src="Images/header.svg"></img>
 <h1 align="center">Hi 👋, I'm Ravindranath Sawane</h1>
-<h3 align="center">I am an Artificial Intelligence Developer!!</h3>
+<h3 align="center">I am pursuing B. Tech. in Artificial Intelligence (3rd year)!!</h3>
 
 <h3 align="left">Connect with me:</h3>
 
