@@ -25,10 +25,7 @@
 
 
 <!--
-
 <p align="left">
-
-
 <a href="https://www.instagram.com/ravindranath_sawane" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="ravindranath_sawane" height="30" width="40" /></a>
   -->
   
