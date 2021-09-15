@@ -24,8 +24,7 @@
 <p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=ravindranath-sawane&show_icons=true&locale=en" alt="ravindranath-sawane" /></p>
 
 
-<!--
-<p align="left">
+<!--<p align="left">
 <a href="https://www.instagram.com/ravindranath_sawane" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="ravindranath_sawane" height="30" width="40" /></a>
   -->
   
