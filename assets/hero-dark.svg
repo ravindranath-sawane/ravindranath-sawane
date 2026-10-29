@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 384" width="920" height="384" role="img" aria-label="Ravindranath Sawane — Software Developer I, AI Innovation at Kinaxis. I build AI for the messy middle.">
+  <defs>
+    <pattern id="dots-hero" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.85" fill="#85877F" opacity="0.2" />
+    </pattern>
+  </defs>
+
+  <!-- Outer Architectural Frame -->
+  <rect x="2" y="2" width="916" height="380" rx="6" fill="#121512" stroke="#2E332D" stroke-width="1.2" />
+  <rect x="14" y="14" width="892" height="356" fill="url(#dots-hero)" />
+  <rect x="14" y="14" width="892" height="356" fill="none" stroke="#2E332D" stroke-width="0.8" opacity="0.55" />
+
+  <!-- Signature Tomato Corner Registration Marks -->
+  <path d="M14 25 V14 H25 M895 14 H906 V25 M906 359 V370 H895 M25 370 H14 V359" fill="none" stroke="#EE7857" stroke-width="2" />
+
+  <!-- Top Metadata Bar -->
+  <line x1="14" y1="46" x2="906" y2="46" stroke="#2E332D" stroke-width="1" />
+  <circle cx="34" cy="30" r="6.5" fill="#86B372" opacity="0.22">
+    <animate attributeName="r" values="3.5;7.5;3.5" dur="2.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.35;0.06;0.35" dur="2.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="34" cy="30" r="3.5" fill="#86B372" />
+  <text x="47" y="33.5" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.5" letter-spacing="1.1">TORONTO, CANADA   ·   43° 39′ N  /  79° 23′ W</text>
+  <text x="888" y="33.5" text-anchor="end" fill="#F1EEE6" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="500" letter-spacing="0.9">KINAXIS  ·  SOFTWARE DEVELOPER I, AI INNOVATION</text>
+
+  <!-- Center Vertical Divider -->
+  <line x1="478" y1="46" x2="478" y2="338" stroke="#2E332D" stroke-width="1" />
+
+  <!-- LEFT COLUMN: Editorial Copy -->
+  <rect x="36" y="75" width="20" height="1.8" fill="#EE7857" />
+  <text x="66" y="79" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.8" letter-spacing="1.3">AI ENGINEER  ·  SYSTEMS THINKER</text>
+
+  <!-- Author Monogram & Name -->
+  <circle cx="49" cy="109" r="13" fill="#F1EEE6" />
+  <text x="47.5" y="113.5" text-anchor="middle" fill="#121512" font-family="Georgia, Times, serif" font-style="italic" style="font-style: italic" font-size="14.5">rs</text>
+  <circle cx="57" cy="101" r="2.2" fill="#EE7857" />
+  <text x="70" y="114" fill="#F1EEE6" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" letter-spacing="-0.2">Ravindranath Sawane</text>
+
+  <!-- Display Headline -->
+  <text x="36" y="164" fill="#F1EEE6" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1.4">I build AI for</text>
+  <rect x="106" y="201" width="266" height="9.5" rx="1.5" fill="#D8E766" opacity="0.28" transform="rotate(-1.2 239 205)" />
+  <text x="36" y="208" fill="#F1EEE6" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1.4">the</text>
+  <text x="108" y="208" fill="#8CA0FF" font-family="Georgia, Times, serif" font-style="italic" style="font-style: italic" font-size="46" letter-spacing="-0.4">messy middle.</text>
+
+  <!-- Editorial Deck -->
+  <text x="36" y="244" fill="#B9B7AE" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.2">When a good idea meets real work—tools, context, handoffs,</text>
+  <text x="36" y="264" fill="#B9B7AE" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.2">edge cases—I build the system that gets it through.</text>
+
+  <!-- Portfolio Pill & Degree -->
+  <rect x="36" y="288" width="234" height="32" rx="16" fill="#3B56E0" />
+  <text x="54" y="308" fill="#FFFFFF" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="10.2" letter-spacing="0.3">ravindranath-sawane.github.io</text>
+  <text x="247" y="308.5" fill="#D8E766" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700">↗</text>
+  <text x="284" y="308" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.6">M.Sc. CS (AI) · WESTERN</text>
+
+  <!-- RIGHT COLUMN: Field Study 001 Diagram -->
+  <rect x="498" y="62" width="390" height="260" rx="5" fill="#181C18" stroke="#2E332D" stroke-width="1" />
+  <text x="514" y="82" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9" letter-spacing="1.0">FIELD STUDY  001</text>
+  <text x="872" y="82" text-anchor="end" fill="#EE7857" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9" letter-spacing="0.9">FROM INTENT TO SOFTWARE</text>
+  <line x1="498" y1="93" x2="888" y2="93" stroke="#2E332D" stroke-width="1" />
+
+  <!-- Connectors & Stage Cards -->
+  <line x1="593" y1="151" x2="605" y2="151" stroke="#2E332D" stroke-width="1.3" /><path d="M601.5 147.8 L605.2 151 L601.5 154.2" fill="none" stroke="#85877F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" /><line x1="688" y1="151" x2="700" y2="151" stroke="#2E332D" stroke-width="1.3" /><path d="M696.5 147.8 L700.2 151 L696.5 154.2" fill="none" stroke="#85877F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" /><line x1="783" y1="151" x2="795" y2="151" stroke="#2E332D" stroke-width="1.3" /><path d="M791.5 147.8 L795.2 151 L791.5 154.2" fill="none" stroke="#85877F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+  
+    <g>
+      <rect x="512" y="108" width="79" height="86" rx="4" fill="#121512" stroke="#2E332D" stroke-width="1" />
+      <rect x="522" y="116" width="24" height="13" rx="2" fill="#1F241F" />
+      <text x="534" y="125.5" text-anchor="middle" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.2" font-weight="500">01</text>
+      <line x1="526" y1="138" x2="546" y2="138" stroke="#F1EEE6" stroke-width="1.6" stroke-linecap="round"/><line x1="526" y1="144" x2="540" y2="144" stroke="#85877F" stroke-width="1.6" stroke-linecap="round"/><line x1="526" y1="150" x2="535" y2="150" stroke="#EE7857" stroke-width="1.6" stroke-linecap="round"/>
+      <text x="524" y="171" fill="#F1EEE6" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="-0.2">Intake</text>
+      <text x="524" y="184" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.3">intent</text>
+    </g>
+    <g>
+      <rect x="607" y="108" width="79" height="86" rx="4" fill="#121512" stroke="#2E332D" stroke-width="1" />
+      <rect x="617" y="116" width="24" height="13" rx="2" fill="#1F241F" />
+      <text x="629" y="125.5" text-anchor="middle" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.2" font-weight="500">02</text>
+      <circle cx="624" cy="144" r="2.5" fill="#8CA0FF"/><circle cx="638" cy="138" r="2.3" fill="#F1EEE6"/><circle cx="638" cy="150" r="2.3" fill="#EE7857"/><path d="M626 143 L636 138.5 M626 145 L636 149.5" stroke="#85877F" stroke-width="1.2"/>
+      <text x="619" y="171" fill="#F1EEE6" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="-0.2">Design</text>
+      <text x="619" y="184" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.3">plan · route</text>
+    </g>
+    <g>
+      <rect x="702" y="108" width="79" height="86" rx="4" fill="#121512" stroke="#2E332D" stroke-width="1" />
+      <rect x="712" y="116" width="24" height="13" rx="2" fill="#1F241F" />
+      <text x="724" y="125.5" text-anchor="middle" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.2" font-weight="500">03</text>
+      <rect x="716" y="136" width="20" height="15" rx="2.5" fill="none" stroke="#F1EEE6" stroke-width="1.3"/><path d="M722 143.5 H730 M726 139.5 V147.5" stroke="#8CA0FF" stroke-width="1.4" stroke-linecap="round"/>
+      <text x="714" y="171" fill="#F1EEE6" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="-0.2">Build</text>
+      <text x="714" y="184" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.3">MCP · tools</text>
+    </g>
+    <g>
+      <rect x="797" y="108" width="79" height="86" rx="4" fill="#121512" stroke="#8CA0FF" stroke-width="1.4" />
+      <rect x="807" y="116" width="24" height="13" rx="2" fill="#3B56E0" />
+      <text x="819" y="125.5" text-anchor="middle" fill="#FFFFFF" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.2" font-weight="500">04</text>
+      <circle cx="820" cy="143.5" r="8" fill="none" stroke="#8CA0FF" stroke-width="1.4"/><path d="M816.5 143.8 L819.2 146.5 L824 140.8" fill="none" stroke="#86B372" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="809" y="171" fill="#F1EEE6" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="-0.2">Review</text>
+      <text x="809" y="184" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.3">human gate</text>
+    </g>
+
+  <!-- Animated Signal Runner Packet across Pipeline -->
+  <circle r="4" fill="#8CA0FF" opacity="0.9">
+    <animateMotion dur="4.6s" repeatCount="indefinite" path="M 551 151 L 646 151 L 741 151 L 836 151" />
+    <animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.08;0.5;0.9;1" dur="4.6s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Human Approval Gate Strip -->
+  <rect x="512" y="206" width="364" height="26" rx="3" fill="#1F241F" stroke="#2E332D" stroke-width="0.8" />
+  <text x="524" y="222.5" fill="#F1EEE6" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.8" font-weight="500" letter-spacing="0.6">↳ HUMAN APPROVAL CHECKPOINT</text>
+  <text x="864" y="222.5" text-anchor="end" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.5" letter-spacing="0.6">A2A · MCP · OTEL</text>
+
+  <!-- Console Status Readout -->
+  <rect x="512" y="240" width="364" height="28" rx="3" fill="#101310" stroke="#2E332D" stroke-width="0.8" />
+  <text x="524" y="257.5" fill="#86B372" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.8" font-weight="600">✓</text>
+  <text x="536" y="257.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.6" letter-spacing="0.5">CONTEXT GROUNDED   ·   ↗ PLAN &amp; DIFF READY</text>
+  <rect x="854" y="249" width="5.5" height="11" fill="#EE7857">
+    <animate attributeName="opacity" values="1;0.15;1" dur="1.15s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Diagram Caption Footer -->
+  <line x1="498" y1="282" x2="888" y2="282" stroke="#2E332D" stroke-width="0.8" />
+  <text x="514" y="304" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.4" letter-spacing="0.6">THE PROMPT IS THE STARTING POINT. NOT THE PRODUCT.</text>
+  <text x="872" y="304" text-anchor="end" fill="#F1EEE6" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.8" font-weight="600" letter-spacing="0.8">FIG. 01</text>
+
+  <!-- Bottom Strip -->
+  <line x1="14" y1="338" x2="906" y2="338" stroke="#2E332D" stroke-width="1" />
+  <text x="36" y="358" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9" letter-spacing="0.9">AGENTIC SYSTEMS  /  ENTERPRISE RAG  /  APPLIED ML</text>
+  <text x="498" y="358" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9" letter-spacing="0.5">−30% DEV LIFECYCLE  ·  84% NL→MQL ACCURACY</text>
+  <text x="888" y="358" text-anchor="end" fill="#EE7857" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9" font-weight="500" letter-spacing="0.8">INBOX OPEN ↗</text>
+</svg>

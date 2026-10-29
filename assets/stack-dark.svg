@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 302" width="920" height="302" role="img" aria-label="Systems Architecture and Engineering Design Principles">
+  <defs>
+    <pattern id="dots-stack" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.85" fill="#85877F" opacity="0.2" />
+    </pattern>
+  </defs>
+
+  <!-- Outer Card -->
+  <rect x="2" y="2" width="916" height="298" rx="6" fill="#121512" stroke="#2E332D" stroke-width="1.2" />
+  <rect x="14" y="14" width="892" height="274" fill="url(#dots-stack)" />
+
+  <!-- Recessed Bottom Design Principles Band -->
+  <rect x="14" y="224" width="892" height="64" fill="#1F241F" />
+  <rect x="14" y="14" width="892" height="274" fill="none" stroke="#2E332D" stroke-width="0.8" opacity="0.55" />
+
+  <!-- Corner Registration Marks -->
+  <path d="M14 25 V14 H25 M895 14 H906 V25 M906 277 V288 H895 M25 288 H14 V277" fill="none" stroke="#EE7857" stroke-width="2" />
+
+  <!-- Header Bar -->
+  <line x1="14" y1="45" x2="906" y2="45" stroke="#2E332D" stroke-width="1" />
+  <rect x="32" y="28.5" width="16" height="1.8" fill="#EE7857" />
+  <text x="56" y="33.5" fill="#F1EEE6" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.8" font-weight="500" letter-spacing="1.1">01  //  ARCHITECTURE &amp; WORKING STACK</text>
+  <text x="888" y="33.5" text-anchor="end" fill="#85877F" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.9">WHAT HAPPENS AFTER THE DEMO?  ·  FIG. 02</text>
+
+  <!-- Column Dividers -->
+  <line x1="238" y1="54" x2="238" y2="216" stroke="#2E332D" stroke-width="0.8" opacity="0.7" />
+  <line x1="454" y1="54" x2="454" y2="216" stroke="#2E332D" stroke-width="0.8" opacity="0.7" />
+  <line x1="670" y1="54" x2="670" y2="216" stroke="#2E332D" stroke-width="0.8" opacity="0.7" />
+
+  <!-- 4 Capability Columns -->
+  
+    <g>
+      <text x="32" y="68" fill="#EE7857" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.8" font-weight="500" letter-spacing="0.9">01 / AGENTIC &amp; LLM</text>
+      <text x="32" y="88" fill="#F1EEE6" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" letter-spacing="-0.3">Orchestration</text>
+      <rect x="32" y="99" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="42" cy="108" r="2" fill="#EE7857" /><text x="51" y="111.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">MCP &amp; A2A Protocols</text><rect x="32" y="121" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="42" cy="130" r="2" fill="#EE7857" /><text x="51" y="133.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">Google Cloud ADK</text><rect x="32" y="143" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="42" cy="152" r="2" fill="#EE7857" /><text x="51" y="155.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">LangChain · LangGraph</text><rect x="32" y="165" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="42" cy="174" r="2" fill="#EE7857" /><text x="51" y="177.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">Gemini · OpenAI · Vertex AI</text><rect x="32" y="187" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="42" cy="196" r="2" fill="#EE7857" /><text x="51" y="199.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">Self-Correction Loops</text>
+    </g>
+    <g>
+      <text x="248" y="68" fill="#8CA0FF" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.8" font-weight="500" letter-spacing="0.9">02 / RETRIEVAL &amp; ML</text>
+      <text x="248" y="88" fill="#F1EEE6" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" letter-spacing="-0.3">Intelligence</text>
+      <rect x="248" y="99" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="258" cy="108" r="2" fill="#8CA0FF" /><text x="267" y="111.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">Parent-Document RAG</text><rect x="248" y="121" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="258" cy="130" r="2" fill="#8CA0FF" /><text x="267" y="133.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">PyTorch · TensorFlow</text><rect x="248" y="143" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="258" cy="152" r="2" fill="#8CA0FF" /><text x="267" y="155.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">LSTM · GRU · TCN · YOLO</text><rect x="248" y="165" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="258" cy="174" r="2" fill="#8CA0FF" /><text x="267" y="177.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">ChromaDB · Vector Search</text><rect x="248" y="187" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="258" cy="196" r="2" fill="#8CA0FF" /><text x="267" y="199.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">NL-to-MQL Translation</text>
+    </g>
+    <g>
+      <text x="464" y="68" fill="#EE7857" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.8" font-weight="500" letter-spacing="0.9">03 / CLOUD &amp; RUNTIME</text>
+      <text x="464" y="88" fill="#F1EEE6" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" letter-spacing="-0.3">Infrastructure</text>
+      <rect x="464" y="99" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="474" cy="108" r="2" fill="#EE7857" /><text x="483" y="111.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">Kubernetes (AKS · GKE)</text><rect x="464" y="121" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="474" cy="130" r="2" fill="#EE7857" /><text x="483" y="133.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">Google Cloud &amp; Azure AI</text><rect x="464" y="143" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="474" cy="152" r="2" fill="#EE7857" /><text x="483" y="155.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">Databricks · BigQuery</text><rect x="464" y="165" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="474" cy="174" r="2" fill="#EE7857" /><text x="483" y="177.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">Docker · Helm · Argo</text><rect x="464" y="187" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="474" cy="196" r="2" fill="#EE7857" /><text x="483" y="199.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">GitHub Actions CI/CD</text>
+    </g>
+    <g>
+      <text x="680" y="68" fill="#8CA0FF" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="8.8" font-weight="500" letter-spacing="0.9">04 / SYSTEMS &amp; OPS</text>
+      <text x="680" y="88" fill="#F1EEE6" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" letter-spacing="-0.3">Reliability</text>
+      <rect x="680" y="99" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="690" cy="108" r="2" fill="#8CA0FF" /><text x="699" y="111.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">Python · SQL · C++</text><rect x="680" y="121" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="690" cy="130" r="2" fill="#8CA0FF" /><text x="699" y="133.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">FastAPI · PostgreSQL</text><rect x="680" y="143" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="690" cy="152" r="2" fill="#8CA0FF" /><text x="699" y="155.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">OpenTelemetry Tracing</text><rect x="680" y="165" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="690" cy="174" r="2" fill="#8CA0FF" /><text x="699" y="177.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">Human Approval Gates</text><rect x="680" y="187" width="196" height="18" rx="2.5" fill="#181C18" stroke="#2E332D" stroke-width="0.7" /><circle cx="690" cy="196" r="2" fill="#8CA0FF" /><text x="699" y="199.5" fill="#B9B7AE" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="9.2" letter-spacing="0.2">Eval &amp; Regression Suites</text>
+    </g>
+
+  <!-- Principles Divider & Three Pillars -->
+  <line x1="14" y1="224" x2="906" y2="224" stroke="#2E332D" stroke-width="1" />
+  
+    <g>
+      <rect x="32" y="242" width="22" height="22" rx="4" fill="#3B56E0" />
+      <text x="43" y="256.8" text-anchor="middle" fill="#FFFFFF" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="10.5" font-weight="700">A</text>
+      <text x="64" y="252" fill="#F1EEE6" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="-0.2">Give it context</text>
+      <text x="64" y="267" fill="#85877F" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Ground answers in traceable source docs.</text>
+    </g>
+    <g>
+      <rect x="322" y="242" width="22" height="22" rx="4" fill="#EE7857" />
+      <text x="333" y="256.8" text-anchor="middle" fill="#FFFFFF" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="10.5" font-weight="700">B</text>
+      <text x="354" y="252" fill="#F1EEE6" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="-0.2">Let it do useful work</text>
+      <text x="354" y="267" fill="#85877F" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Scoped tools &amp; state—not infinite freedom.</text>
+    </g>
+    <g>
+      <rect x="612" y="242" width="22" height="22" rx="4" fill="#F1EEE6" />
+      <text x="623" y="256.8" text-anchor="middle" fill="#121512" font-family="'DM Mono', 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="10.5" font-weight="700">C</text>
+      <text x="644" y="252" fill="#F1EEE6" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="-0.2">Make it reviewable</text>
+      <text x="644" y="267" fill="#85877F" font-family="'DM Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Keep humans in control of key decisions.</text>
+    </g>
+</svg>
