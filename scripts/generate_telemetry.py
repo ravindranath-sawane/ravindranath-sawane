@@ -21,6 +21,7 @@ import os
 import re
 import ssl
 import subprocess
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -78,35 +79,102 @@ def build_ssl_context() -> ssl.SSLContext:
 SSL_CTX = build_ssl_context()
 
 
-def http_get(url: str, headers: dict[str, str] | None = None) -> bytes:
+def http_get(
+    url: str, headers: dict[str, str] | None = None, retries: int = 3
+) -> bytes:
     req_headers = {
         "User-Agent": "ravindranath-sawane-profile-telemetry/1.0",
         "Accept": "text/html,application/json,*/*",
     }
     if headers:
         req_headers.update(headers)
-    req = urllib.request.Request(url, headers=req_headers)
-    with urllib.request.urlopen(req, timeout=20, context=SSL_CTX) as resp:
-        return resp.read()
+    last_err: Exception | None = None
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers=req_headers)
+            with urllib.request.urlopen(req, timeout=20, context=SSL_CTX) as resp:
+                return resp.read()
+        except Exception as err:
+            last_err = err
+            if attempt + 1 < retries:
+                time.sleep(1.2 * (attempt + 1))
+    assert last_err is not None
+    raise last_err
 
 
-def graphql_query(query: str, token: str) -> dict[str, Any]:
+def graphql_query(query: str, token: str, retries: int = 3) -> dict[str, Any]:
     payload = json.dumps({"query": query}).encode("utf-8")
-    req = urllib.request.Request(
-        "https://api.github.com/graphql",
-        data=payload,
-        headers={
-            "Authorization": f"Bearer {token}",
-            "Content-Type": "application/json",
-            "User-Agent": "ravindranath-sawane-profile-telemetry/1.0",
-        },
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=20, context=SSL_CTX) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    if "errors" in data and not data.get("data"):
-        raise RuntimeError(f"GraphQL error: {data['errors']}")
-    return data["data"]
+    last_err: Exception | None = None
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(
+                "https://api.github.com/graphql",
+                data=payload,
+                headers={
+                    "Authorization": f"Bearer {token}",
+                    "Content-Type": "application/json",
+                    "User-Agent": "ravindranath-sawane-profile-telemetry/1.0",
+                },
+                method="POST",
+            )
+            with urllib.request.urlopen(req, timeout=20, context=SSL_CTX) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            if "errors" in data and not data.get("data"):
+                raise RuntimeError(f"GraphQL error: {data['errors']}")
+            return data["data"]
+        except Exception as err:
+            last_err = err
+            if attempt + 1 < retries:
+                time.sleep(1.2 * (attempt + 1))
+    assert last_err is not None
+    raise last_err
+
+
+def fetch_calendar_graphql(
+    login: str, start_year: int, token: str
+) -> tuple[int, int, dict[str, int]]:
+    """Fetch trailing-12m daily map + all-time total in a single GraphQL request."""
+    current_year = dt.datetime.now(dt.timezone.utc).year
+    year_fields = []
+    for year in range(start_year, current_year + 1):
+        year_fields.append(
+            f'y{year}: contributionsCollection(from: "{year}-01-01T00:00:00Z", to: "{year}-12-31T23:59:59Z") {{ '
+            f"contributionCalendar {{ totalContributions }} }}"
+        )
+    years_block = "\n        ".join(year_fields)
+    query = f"""
+    query {{
+      user(login: "{login}") {{
+        rolling: contributionsCollection {{
+          contributionCalendar {{
+            totalContributions
+            weeks {{
+              contributionDays {{
+                date
+                contributionCount
+              }}
+            }}
+          }}
+        }}
+        {years_block}
+      }}
+    }}
+    """
+    user_data = graphql_query(query, token)["user"]
+    cal = user_data["rolling"]["contributionCalendar"]
+    rolling_total = int(cal["totalContributions"])
+    rolling_days: dict[str, int] = {}
+    for week in cal["weeks"]:
+        for day in week["contributionDays"]:
+            rolling_days[day["date"]] = int(day["contributionCount"])
+
+    all_time = 0
+    for year in range(start_year, current_year + 1):
+        y_node = user_data.get(f"y{year}")
+        if y_node and y_node.get("contributionCalendar"):
+            all_time += int(y_node["contributionCalendar"]["totalContributions"])
+    all_time = max(all_time, rolling_total)
+    return rolling_total, all_time, rolling_days
 
 
 def parse_public_contributions_html(raw_html: str) -> tuple[int, dict[str, int]]:
@@ -576,12 +644,23 @@ def render_svg(
 """
 
 
+def fetch_calendar(
+    login: str, start_year: int, token: str | None
+) -> tuple[int, int, dict[str, int]]:
+    if token:
+        try:
+            return fetch_calendar_graphql(login, start_year, token)
+        except Exception:
+            pass
+    return fetch_calendar_public(login, start_year)
+
+
 def main() -> None:
     ASSETS_DIR.mkdir(parents=True, exist_ok=True)
     token = get_token()
 
-    p_12m, p_all, p_days = fetch_calendar_public(PERSONAL_USER, PERSONAL_START_YEAR)
-    w_12m, w_all, w_days = fetch_calendar_public(WORK_USER, WORK_START_YEAR)
+    p_12m, p_all, p_days = fetch_calendar(PERSONAL_USER, PERSONAL_START_YEAR, token)
+    w_12m, w_all, w_days = fetch_calendar(WORK_USER, WORK_START_YEAR, token)
     pub_repos, raw_langs = fetch_repo_stats(PERSONAL_USER, token)
 
     weeks = build_weeks_grid(p_days, w_days)
